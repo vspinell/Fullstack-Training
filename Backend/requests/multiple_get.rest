@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:3001/api/notes
+
+###
+GET {{baseUrl}}/1
+###
+
+###
+GET {{baseUrl}}/2
+###

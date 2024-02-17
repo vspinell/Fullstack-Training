@@ -1,4 +1,7 @@
 # Takeaways
 
+## Backend
+
 - [Express: Hello world](./HelloWorrld.md)
-- [API: Delete, Post](./AllApi.md)
+- [Delete, Post and Parameterized get](./AllApi.md)
+- [Middleware](./Middlewares.md)

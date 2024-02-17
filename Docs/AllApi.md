@@ -11,9 +11,7 @@ This snippet below allows our server to parse the json body.
 The json-parser takes the JSON data of a request, transforms it into a JavaScript object and then attaches it to the body property of the request object before the route handler is called.
 
 ```javascript
-app.get("/", (request, response) => {
-  app.use(express.json());
-});
+app.use(express.json());
 ```
 
 Use the following to check the header of the request

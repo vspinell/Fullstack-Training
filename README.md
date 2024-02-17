@@ -27,3 +27,4 @@ To send requests to the server use the Rest CLIENT VS Code extension. Find out m
 
 1. Install the extension
 2. Under `Backend/requests` open the api you want to try and click on `send Request`
+   modified

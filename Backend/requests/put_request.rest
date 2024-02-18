@@ -1,0 +1,10 @@
+PUT http://localhost:3001/api/notes/65d1e61de2c22eb2d0435cff
+content-type: application/json
+
+{
+	"content": "lollo",
+	"important": false
+}
+
+###
+GET http://localhost:3001/api/notes/

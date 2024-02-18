@@ -1,1 +1,6 @@
-DELETE  http://localhost:3001/api/notes/1
+@baseUrl = http://localhost:3001/api/notes
+
+DELETE  {{baseUrl}}/65d1d31fb06486225ad45807
+
+###
+GET {{baseUrl}}

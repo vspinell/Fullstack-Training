@@ -1,0 +1,15 @@
+@baseUrl = http://localhost:3001/api/notes
+
+GET {{baseUrl}}
+
+### Replace <some_existing_id>
+GET {{baseUrl}}/<some_existing_id>
+###
+
+###
+GET {{baseUrl}}/WrogIdFormat
+###
+
+### Not existing ID
+GET {{baseUrl}}/65d216b1b63974dbdf01e223
+###

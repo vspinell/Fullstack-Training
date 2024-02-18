@@ -25,3 +25,12 @@ Method **response.json**:
 Calling the method will send the notes array that was passed to it as a JSON formatted string. Express automatically sets the Content-Type header with the appropriate value of application/json.
 
 The event handler function accepts two parameters. The first request parameter contains all of the information of the HTTP request, and the second response parameter is used to define how the request is responded to.
+
+### Others
+
+The `require` method is the way we import modules in node.js.
+The following is an example of how we can create our custom module and make it available to our server applicartion
+
+```javascript
+module.exports = mongoose.model("Note", noteSchema);
+```

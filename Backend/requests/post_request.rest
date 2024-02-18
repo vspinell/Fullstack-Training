@@ -1,11 +1,30 @@
+GET http://localhost:3001/api/notes
+
+###
 POST http://localhost:3001/api/notes/
 content-type: application/json
 
 {
-	"content": "HTML is d"
+	"content": "Some content"
 }
 
 ###
-GET http://localhost:3001/api/notes
+
+POST http://localhost:3001/api/notes/
+content-type: application/json
+
+{
+	"content": "Some important content",
+	"important": true
+}
+
+### Malformed request (too short content)
+POST http://localhost:3001/api/notes/
+content-type: application/json
+
+{
+	"content": "lol",
+	"important": true
+}
 
 
